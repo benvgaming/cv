@@ -3,28 +3,28 @@
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \usepackage{fancyhdr}  % use this package to get a 2 line header
 \usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
 \renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
 \newcommand{\inFrench}[1]{}
 \newcommand{\inEnglish}[1]{#1}
-\newcommand{\inVietnamese}[1]{#1}
 \setlength{\headheight}{24pt} % allow room for 2-line header
 \setlength{\headsep}{16pt}  % space between header and text
 \setlength{\headheight}{24pt} % allow room for 2-line header
 \pagestyle{fancy}
-\rhead{ {\it Manh Cuong Nguyen}\\{\it p. \thepage} }
+\rhead{ {\it Mạnh Cường Nguyễn}\\{\it p. \thepage} }
 \cfoot{}
 \topmargin=-0.7in
 
 \begin{document}
 \thispagestyle{empty} % this page has no header
 
-{\bf\huge Manh Cuong Nguyen}
+{\bf\huge Nguyễn Mạnh Cường}
 
 \inEnglish{
 	\hfill \textbf \\ %{github.com/gregorysaabas} \\
-	Computer Programmer Analyst graduate from the Fanshawe College.
+	Tốt nghiệp Chuyên viên Lập trình Máy tính từ trường Fanshawe
 	\hfill \textbf {cuong.nm2001@gmail.com} \\
-	\hfill \textbf {Tel}: 0901-298-633 \\
+	\hfill \textbf {SĐT}: 0901-298-633 \\
 	%\hfill \textbf % {LinkedIn}: https://www.linkedin.com/in/cuong-nm/  \\
 	%\hfill \textbf % {GitHub}: https://github.com/benvgaming
 }
@@ -32,13 +32,13 @@
 
 \begin{resume}
 % --------------------------------
-\section{Education}
+\section{Học Vấn}
 \vspace{4pt}
 
 
 \inEnglish{
 	% Bacc
-	Fanshawe College, London ON, Canada
+	Cao Đẳng Fanshawe, London ON, Canada
 	\hfill 2020-2022 \\
 	{\sl Ontario College Advanced Diploma} \\
 	 GPA: 4.052
@@ -47,23 +47,22 @@
 
 % --------------------------------
 
-\section {Professional experiences}
+\section {Kinh Nghiệm Làm Việc}
 
 \vspace{6pt}
 Blockchain lab, Osaka Metropolitan University, Osaka Japan
-\hfill March 2023 - July 2023 \\
-{\sl Back-end Developer (Internship)}
+\hfill Tháng 3 2023 - Tháng 7 2023 \\
+{\sl Back-end Developer (Thực Tập)}
 
 \begin{itemize} \itemsep -2pt
-	\item Developed and maintained back-end systems using TypeScript, TypeGraphQL, Express and Apollo
-	\item Implemented authentication and authorization mechanisms, including JWT (JSON Web Tokens) and OAuth, to ensure access control
-	\item Designed and implemented RESTful APIs and GraphQL schemas using TypeGraphQL, allowing efficient and flexible data retrieval
-
+	\item Phát triển và duy trì hệ thống back-end sử dụng TypeScript, TypeGraphQL, Express và Apollo
+	\item Xác lập các cơ chế xác thực và ủy quyền, bao gồm JWT (JSON Web Tokens) và OAuth, để đảm bảo kiểm soát truy cập
+	\item Thiết kế và triển khai RESTful APIs và GraphQL Schema sử dụng TypeGraphQL, cho phép truy xuất dữ liệu hiệu quả và linh hoạ
 
 \end{itemize}
 
 \inEnglish{
-	\section{Personal projects}
+	\section{Dự Án riêng}
 }
 \vspace{9pt}
 
@@ -77,22 +76,22 @@ Blockchain lab, Osaka Metropolitan University, Osaka Japan
 	%\vspace{0.05in}
 
 	\begin{itemize} \itemsep -2pt
-		\item {Description:} Website that simulates the process of vendors ordering, viewing, and adding products and making purchases for the company 
-		\item {Technology:} Spring Boot, AngularJS
+		\item {Miêu tả:} Trang web mô phỏng quá trình nhà cung cấp đặt hàng, xem sản phẩm, thêm sản phẩm và thực hiện mua sắm cho công ty
+		\item {Công nghệ:} Spring Boot, AngularJS
 	\end{itemize}
 
       %
 	{Pandemic Simulation}
 	
 	\begin{itemize} \itemsep -2pt
-		\item  {Description:} A Java GUI Application that let users input certain parameters about a population in terms of how many people are vaccinated or unvaccinated, and then run a simulation to see how quickly a disease will spread through the population of a given size.
-		\item {Technology:} Java, JavaFX
+		\item  {Miêu tả:} Một ứng dụng Java cho phép người dùng nhập các tham số cụ thể về dân số liên quan đến số người đã tiêm chủng hoặc chưa tiêm chủng, sau đó chạy mô phỏng để xem cách bệnh sẽ lan truyền nhanh chóng trong dân số có kích thước cụ thể.
+		\item {Công nghệ:} Java, JavaFX
 	\end{itemize}
 		
 		 {Online Store} 
 	\begin{itemize} \itemsep -2pt
-		\item  {Description:} An online store that has login, registration, and database to store user’s information; select and buy different products from the website
-		\item  {Technology:} .Net Core, Vue JS
+		\item  {Miêu tả:} Một cửa hàng trực tuyến có chức năng đăng nhập, đăng ký và cơ sở dữ liệu để lưu trữ thông tin người dùng; chọn và mua các sản phẩm khác nhau trên trang web.
+		\item  {Công nghệ:} .Net Core, Vue JS
 	\end{itemize}
 
 }
@@ -102,19 +101,19 @@ Blockchain lab, Osaka Metropolitan University, Osaka Japan
 	\section{Connaissances informatiques}
 }
 \inEnglish{
-	\section{Software expertise}
+	\section{Kỹ năng lập trình}
 }
 \vspace{6pt}
 
 
 \inEnglish{
-	Programming languages
+	Ngôn ngữ lập trình
 	\vspace{0.05in}
 	\begin{itemize}
 		\item Java (Spring), C\#, Python, JavaScript, TypeScript, C++.
 	\end{itemize}
 
-	Software
+	Phần mềm
 	\vspace{0.05in}
 	\begin{itemize}\itemsep -2pt
 		\item GNU/Linux
@@ -129,30 +128,29 @@ Blockchain lab, Osaka Metropolitan University, Osaka Japan
 % Beginning of page 2
 % --------------------------------
 
+
 \inEnglish{
-	\section{Languages}
+	\section{Ngoại ngữ}
 }
 \vspace{6pt}
 
 \inEnglish{
 	\vspace{6pt}
 	\begin{itemize} \itemsep -2pt
-		\item English: Advanced
-		\item Vietnamese: Native
-		\item Japanese: Intermediate
-		\item French: Beginner
+		\item Tiếng Anh: IELTS 7.0
+		\item Tiếng Nhật: N3
 	\end{itemize}
 }
 
 \inEnglish{
-	\section{Soft Skills}
+	\section{Kỹ năng mềm}
 	\vspace{6pt}
 	\vspace{6pt}
 	\begin{itemize} \itemsep -2pt
-		\item Problem-Solving
-		\item Adaptability
-		\item Stress Management
-		\item Documentation Skills
+		\item Khả năng giải quyết vấn đề
+		\item Thích ứng 
+		\item Khả năng phân tích
+		\item Kỹ năng Documentation
 	\end{itemize}
 }
 
@@ -160,29 +158,26 @@ Blockchain lab, Osaka Metropolitan University, Osaka Japan
 	\section{Intérêts personnels}
 }
 \inEnglish{
-	\section{Personal interests}
+	\section{Sở thích}
 }
 \vspace{6pt}
+
 
 \inEnglish{
 	\vspace{6pt}
 	\begin{itemize} \itemsep -2pt
-		\item Reading fiction and non-fiction books
-		\item Automation and Productivity tools and technology
-		\item Code style: efficiency, maintainability, and composability
-		\item Fighting games, board games
-		\item Cooking with friends and families 
+		\item Đọc sách
+		\item Công cụ và công nghệ tự động hóa và tăng năng suất
+		\item Game đối kháng, board games
+		\item Nấu ăn
 	\end{itemize}
 }
-
-
-
 % --------------------------------
 \inFrench{
 	\section{Expériences connexes}
 }
 \inEnglish{
-	\section{Other experiences}
+	\section{Kinh nghiệm khác}
 }
 \vspace{6pt}
 
@@ -211,8 +206,8 @@ Blockchain lab, Osaka Metropolitan University, Osaka Japan
 %}
 
 \inEnglish{
-	Cook - Gyu-Kaku restaurant \\
-	Cook - McDonald restaurant
+	Đầu bếp - Gyu-Kaku restaurant \\
+	Đầu bếp - McDonald restaurant
 
 	\vspace{0.05in}
 %	\begin{itemize} \itemsep -2pt
